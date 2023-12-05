@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    box-sizing: calc(100);
+    
+
+}
+
+      /*  header  */
+
+@media (max-width:700px) {
+    .header{
+        flex-direction: column;
+    }
+
+    nav{
+        padding: 10px 0px;
+    }
+
+ }
+
+nav a{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 600;
+    padding-right: 10px;
+}
+nav a:hover{
+    color: yellow;
+}
+.header{
+    display: flex;
+    min-height: 60px;
+    background-color: rgb(63, 63, 119);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+   
+
+} 
+
+ .title{
+    display: flex;
+    margin-left: 20px;
+    color: aliceblue;
+ }
+
+
+ 
+    /* banner */
+  
+
+ .background{
+    position: relative ;
+    
+    height: 600px;
+    background-image: url(banner.jpg);
+    background-position-x: center;
+    zoom: 110%;
+
+
+ 
+}
+.capa{
+    width: 50%;
+
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    background: rgba(57, 57, 133, 0.75)
+
+
+}
+.content{
+    padding-top: 10px;
+    color:yellow;
+    font-size: medium;
+  .text{
+    padding-top: 20px;
+    color: white;
+   }
+}
+
+
+      /*  main  */
+
+ 
+.galería{
+    margin-top: 100px;
+   margin-bottom: 50px;
+   font-size: xx-large;
+    }
+
+.section{
+     margin-left: 150px;
+     margin-right: 150px;
+    }    
+
+.Imágenes1{
+
+    text-align: center;
+    margin-top: 100px;
+    }
+
+.Imágenes2{
+
+    text-align: center;
+    margin-top: 0px;
+}
