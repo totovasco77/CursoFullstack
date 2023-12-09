@@ -11,7 +11,7 @@
 
       /*  header  */
 
-@media (max-width:700px) {
+@media screen (max-width:700px) {
     .header{
         flex-direction: column;
     }
@@ -19,6 +19,13 @@
     nav{
         padding: 10px 0px;
     }
+    .footer .grupo-1{
+        width: 100%;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 50px;
+        padding: 45px 0px;
+    }
+        
 
  }
 
@@ -34,7 +41,7 @@ nav a:hover{
 .header{
     display: flex;
     min-height: 60px;
-    background-color: rgb(63, 63, 119);
+    background-color: rgb(38, 38, 75);
     justify-content: space-between;
     align-items: center;
     padding: 10px;
@@ -65,22 +72,22 @@ nav a:hover{
  
 }
 .capa{
-    width: 50%;
-
+    width: 60%;
+    height: 20%;
     position: absolute;
     top: 30%;
-    left: 25%;
-    background: rgba(57, 57, 133, 0.75)
-
-
+    left: 20%;
+    background: rgba(34, 34, 75, 0.75)
+    
 }
 .content{
     padding-top: 10px;
     color:yellow;
     font-size: medium;
   .text{
-    padding-top: 20px;
+    padding-top: 50px;
     color: white;
+    width: 70%;
    }
 }
 
@@ -88,25 +95,109 @@ nav a:hover{
       /*  main  */
 
  
-.galería{
-    margin-top: 100px;
-   margin-bottom: 50px;
+.titlegalería{
+    margin-top: 25px;
+   margin-bottom: 20px;
    font-size: xx-large;
     }
 
-.section{
+.galería{
      margin-left: 150px;
      margin-right: 150px;
+     color: rgb(34, 34, 75);
+     .paragraphgalería{ margin-top: 15px;}
     }    
 
 .Imágenes1{
 
+    display: flex;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 70px;
+    padding: 0px;
+    justify-content: center
     }
 
 .Imágenes2{
 
+    display: flex;
     text-align: center;
     margin-top: 0px;
+    padding: 0px;
+    justify-content: center;
+}
+
+
+.servicios{
+    margin-left: 150px;
+    margin-right: 150px;
+    color: rgb(34, 34, 75);
+}
+.titleservicios{
+    margin-top: 25px;
+    margin-bottom: 20px;
+    font-size: xx-large;
+}
+
+.paragraphservicios1{
+    margin-bottom: 15px;
+}
+
+
+div.decoraciónresidencial{ 
+    position: absolute;
+    bottom: 30;
+    left: 20;
+
+   
+}
+
+
+.footer{
+    width: 100%;
+    background-color: rgb(38, 38, 75);
+}
+.footer .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+    justify-content: center;
+
+}
+.footer .grupo-1 .box h2{
+    color: #fff;
+    margin-bottom: 12px;
+    font-size: 20px;
+    justify-content: center;
+}
+.footer .grupo-1 .box p{
+    color: #fff;
+    font-size: 13px;
+    justify-content: center;
+}
+.footer .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 50px;
+    line-height: 50px;
+    color: #fff;
+    margin-right: 10px;
+    border-color: #fff;
+    text-align: center;
+}
+.footer .grupo-1 .red-social a:hover{
+    color:yellow;
+}
+.footer .grupo-2{
+    
+    background-color: #ffffff;
+    padding: 15px 10px;
+    text-align: center;
+    color: rgb(34, 34, 75);
+}
+.footer .grupo-2 small{
+    font-size: 10px;
 }
